@@ -1,0 +1,115 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMgB4xGnu6sbFqRoVEC5cer",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/srushtishete27/Assignment-3/blob/main/Assignment%203\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "num = int(input(\"Enter a number: \"))\n",
+        "\n",
+        "if num % 2 == 0:\n",
+        "    print(\"Even number\")\n",
+        "else:\n",
+        "    print(\"Odd number\")\n",
+        "\n",
+        "ch = input(\"Enter a character: \")\n",
+        "\n",
+        "if ch.isupper():\n",
+        "    print(\"Uppercase letter\")\n",
+        "elif ch.islower():\n",
+        "    print(\"Lowercase letter\")\n",
+        "else:\n",
+        "    print(\"Not an alphabet\")\n",
+        "\n",
+        "x = input(\"Enter something: \")\n",
+        "\n",
+        "if x.isdigit():\n",
+        "    print(\"It is a number\")\n",
+        "else:\n",
+        "    print(\"It is a character\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "54mUKWo3Qf3i",
+        "outputId": "7f1a5cc3-0251-46bb-a530-a51e374ee851"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 8\n",
+            "Even number\n",
+            "Enter a character: A\n",
+            "Uppercase letter\n",
+            "Enter something: H\n",
+            "It is a character\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IUcbDLTlP_A8",
+        "outputId": "6b712b33-a654-483b-948e-c59484a91a00"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first number: 6\n",
+            "Enter second number: 9\n",
+            "Enter third number: 9\n",
+            "Greatest number is: 9\n"
+          ]
+        }
+      ],
+      "source": [
+        "a = int(input(\"Enter first number: \"))\n",
+        "b = int(input(\"Enter second number: \"))\n",
+        "c = int(input(\"Enter third number: \"))\n",
+        "\n",
+        "if a >= b and a >= c:\n",
+        "    print(\"Greatest number is:\", a)\n",
+        "elif b >= a and b >= c:\n",
+        "    print(\"Greatest number is:\", b)\n",
+        "else:\n",
+        "    print(\"Greatest number is:\", c)"
+      ]
+    }
+  ]
+}
